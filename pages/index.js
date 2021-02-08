@@ -1,3 +1,4 @@
+import HeaderNext from './../Components/HeaderNext';
 import NavBarSimpleWithCenterLogo from './../Components/NavBarSimpleWithCenterLogo';
 import CompleteCarousel from './../Components/CompleteCarousel';
 import CallToActionOne from './../Components/CallToActionOne';
@@ -10,6 +11,7 @@ const caurouselItems = [
 export default function Home() {
   return (
     <>
+      <HeaderNext title="Tia Pah Tour" description="Passeios turísticos pelo Rio de Janeiro"/>
       <NavBarSimpleWithCenterLogo />
       <div className='jumbotron'>
         <h1 className='display-4'>Tia Pah Tour Logo</h1>
