@@ -50,7 +50,7 @@ const FooterOne = () => {
 
                 @media (max-width: 992px) {
                     #texto {
-                        font-size: 12px;
+                        font-size: 10px;
                     }
                 }
             `}</style>
