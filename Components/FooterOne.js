@@ -34,7 +34,7 @@ const FooterOne = () => {
                         </span>
 
                         <span className='mx-3'>
-                            <a href=" https://wa.me/5521981853414?text=Oi, gostaria de me informar melhor sobre os passeios" target='_blank'>
+                            <a href=" https://wa.me/5521982258549?text=Oi, gostaria de me informar melhor sobre os passeios" target='_blank'>
                                 <FontAwesomeIcon icon={faWhatsapp} size='2x' />
                             </a>
                         </span>

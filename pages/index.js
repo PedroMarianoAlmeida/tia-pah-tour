@@ -20,7 +20,7 @@ export default function Home() {
       </main>
 
       <div className='mb-5 pb-5'>
-        <CallToActionOne />
+        <div className='mb-5'><CallToActionOne /></div>
       </div>
 
       <FooterOne />
