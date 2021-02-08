@@ -1,5 +1,6 @@
 //Source: https://reactstrap.github.io/components/carousel/
 //Should receive as items prop an Array of Objects (with the properties src, altText and caption)
+//Adapted for Next js
 
 import { useState } from 'react';
 import {
@@ -9,6 +10,7 @@ import {
     CarouselIndicators,
     CarouselCaption
 } from 'reactstrap';
+import Image from 'next/image'
 
 const CompleteCarousel = (props) => {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -38,7 +40,12 @@ const CompleteCarousel = (props) => {
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <img src={item.src} alt={item.altText} />
+                <Image
+                    src={item.src}
+                    alt={item.altText}
+                    width={500}
+                    height={500}
+                />
                 <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
             </CarouselItem>
         );
