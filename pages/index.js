@@ -23,8 +23,9 @@ export default function Home() {
 
 
       </main>
-
-      <CallToActionOne />
+      <div className='mb-5 pb-5'>
+        <CallToActionOne />
+      </div>
       <FooterOne />
     </>
   )
